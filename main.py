@@ -71,7 +71,7 @@ async def main():
         dsn=DATABASE_URL,
         min_size=1,
         max_size=10,
-        ssl=ssl_ctx
+        ssl=None
     )
     
     # Инициализируем БД
