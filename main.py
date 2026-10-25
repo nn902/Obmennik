@@ -8,7 +8,7 @@ from aiogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKe
 # --- НАСТРОЙКИ ---
 BOT_TOKEN = os.getenv("BOT_TOKEN", "ТВОЙ_ТОКЕН_СЮДА")
 # Строка подключения от pghost.ru
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://пользователь:пароль@node1.pghost.ru:16251/твоя_база")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://bothost_db_a8082ad66c45:3lEv7RUeVM2gC05wtPlhRReeYyrPQZ4esCv7FKfNq1w@node1.pghost.ru:16251/bothost_db_a8082ad66c45")
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
